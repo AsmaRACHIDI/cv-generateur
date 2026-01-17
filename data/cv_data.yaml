@@ -1,0 +1,58 @@
+personal:
+  first_name: Asma
+  last_name: Rachidi
+  title: Data Scientist | ML | NLP
+  location: Aulnay-sous-Bois, France
+  email: rachidi.asm@gmail.com
+  phone: 06 25 28 47 12
+  linkedin: https://linkedin.com/in/asma-rachidi
+  github: https://github.com/asma-rachidi
+
+profile: |
+  Data Scientist junior spécialisée en machine learning et traitement du langage naturel (NLP). Expérience en exploitation de données open data et développement de modèles de classification.
+
+skills:
+  languages: "Python (Pandas, NumPy, Scikit-learn), SQL, C"
+  ml: "Classification, régression, clustering"
+  database: "MySQL, PostgreSQL, SQLite"
+  visualization: "Matplotlib, Seaborn, Dash (Plotly)"
+  tools: "Flask, Git, GitHub, Jira"
+
+work_experience:
+  - title: Data Scientist – Open Data
+    company: Ministère de l’Économie et des Finances (BercyHub)
+    period: "Septembre 2023 – Présent"
+    description: |
+      Administration et exploitation des plateformes open data
+      Accompagnement des équipes métier
+  - title: Data Scientist Stagiaire
+    company: LIP6 – Sorbonne Université
+    period: "Mai 2021 – Octobre 2021"
+    description: |
+      Développement d’un modèle de classification pour anomalies
+
+education:
+  - school: École IA Microsoft by Simplon
+    degree: Développeur IA
+    period: "2022 – 2024"
+  - school: Master SESI – Sorbonne Université
+    degree: Ingénierie
+    period: "2019 – 2021"
+
+certifications:
+  - "Microsoft Azure Fundamentals – AZ-900"
+
+languages:
+  - "Français : Natif"
+  - "Anglais : B2"
+
+interests:
+  - "Intelligence Artificielle"
+  - "Data et Open data"
+  - "Électronique"
+  - "Technologies émergentes"
+  - "Voyages"
+  - "Sport"
+  - "Cuisine"
+  - "Santé"
+  
