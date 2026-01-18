@@ -1,0 +1,76 @@
+@page {
+  size: A4;
+  margin: {{ margin }}in;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: {{ font_size }}pt;
+  line-height: {{ line_height }};
+  color: #1a1a1a;
+}
+
+.header-banner {
+  background-color: #0a3d62;
+  padding: {{ header_padding }}px 0;
+  text-align: center;
+  margin-bottom: {{ section_spacing }}px;
+}
+
+.header-banner h1 {
+  color: white;
+  font-size: {{ title_size }}pt;
+  margin: 0;
+}
+
+.header-banner p {
+  color: white;
+  font-size: {{ subtitle_size }}pt;
+  margin-top: 2px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: {{ section_spacing }}px;
+}
+
+h2 {
+  font-size: {{ section_title_size }}pt;
+  margin: {{ section_spacing }}px 0 4px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+h3 {
+  font-size: {{ item_title_size }}pt;
+  margin: 6px 0 2px 0;
+}
+
+p, li {
+  margin: 0;
+}
+
+ul {
+  margin-left: 14px;
+}
+
+/* COMPÉTENCES EN COLONNES */
+.skills-row {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.skill-col {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+  margin-right: 1%;
+}
+
+.skill-col:last-child {
+  margin-right: 0;
+}
+
+.skill-col strong {
+  display: block;
+  margin-bottom: 2px;
+}

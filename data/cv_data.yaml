@@ -1,58 +1,105 @@
 personal:
   first_name: Asma
   last_name: Rachidi
-  title: Data Scientist | ML | NLP
+  title: Data Scientist | Machine Learning | NLP
   location: Aulnay-sous-Bois, France
   email: rachidi.asm@gmail.com
-  phone: 06 25 28 47 12
+  phone: "06 25 28 47 12"
   linkedin: https://linkedin.com/in/asma-rachidi
   github: https://github.com/asma-rachidi
 
 profile: |
-  Data Scientist junior spécialisée en machine learning et traitement du langage naturel (NLP). Expérience en exploitation de données open data et développement de modèles de classification.
+  Data Scientist junior spécialisée en machine learning et traitement du langage naturel (NLP),
+  avec une expérience en exploitation de données open data, en développement de modèles de
+  classification et en création de visualisations interactives.
 
 skills:
-  languages: "Python (Pandas, NumPy, Scikit-learn), SQL, C"
-  ml: "Classification, régression, clustering"
-  database: "MySQL, PostgreSQL, SQLite"
-  visualization: "Matplotlib, Seaborn, Dash (Plotly)"
-  tools: "Flask, Git, GitHub, Jira"
+  languages:
+    - Python (Pandas, NumPy, Scikit-learn)
+    - SQL
+    - C
+    - MATLAB
+  ml:
+    - Classification
+    - Régression
+    - Clustering
+    - NLP
+    - Fine-tuning BERT et CamemBERT
+  deep_learning:
+    - TensorFlow
+    - Keras
+    - PyTorch
+  databases:
+    - MySQL
+    - PostgreSQL
+    - SQLite
+  visualization:
+    - Matplotlib
+    - Seaborn
+    - Dash (Plotly)
+  tools:
+    - Flask
+    - Git
+    - GitHub
+    - Jira
+    - Méthodes agiles
 
 work_experience:
   - title: Data Scientist – Open Data
     company: Ministère de l’Économie et des Finances (BercyHub)
-    period: "Septembre 2023 – Présent"
-    description: |
-      Administration et exploitation des plateformes open data
-      Accompagnement des équipes métier
+    period: Septembre 2023 – Présent
+    bullets:
+      - Administration et exploitation des plateformes open data (data.economie.gouv.fr, data.gouv.fr)
+      - Accompagnement des équipes métier sur des projets Open Data
+      - Conception de jeux de données et de visualisations interactives (OpenDataSoft)
+      - Requêtage et exploitation d’API pour automatiser l’extraction de données
+      - Développement et évaluation de modèles de classification textuelle (SVM, régression logistique, arbres de décision)
+      - Fine-tuning de modèles NLP (BERT, CamemBERT) avec Grid Search et Cross Validation
+      - Création d’un dashboard de suivi des performances des modèles
+
   - title: Data Scientist Stagiaire
     company: LIP6 – Sorbonne Université
-    period: "Mai 2021 – Octobre 2021"
+    period: Mai 2021 – Octobre 2021
+    bullets:
+      - Développement d’un modèle de classification pour la détection d’anomalies médicales
+      - Conception et entraînement d’un perceptron multicouches (PMC)
+      - Implémentation du modèle sur FPGA (Xilinx Artix 7)
+      - Optimisation des performances avec Xilinx Vivado HLS et SDK
+
+projects:
+  - name: Classification de discussions textuelles – NLP
+    stack: Python, Scikit-learn, BERT
     description: |
-      Développement d’un modèle de classification pour anomalies
+      Prétraitement de données textuelles, entraînement et évaluation de modèles
+      de classification, optimisation par Grid Search.
+    link: https://github.com/asma-rachidi
 
 education:
   - school: École IA Microsoft by Simplon
-    degree: Développeur IA
-    period: "2022 – 2024"
+    degree: Développeur en Intelligence Artificielle
+    period: 2022 – 2024
+
   - school: Master SESI – Sorbonne Université
-    degree: Ingénierie
-    period: "2019 – 2021"
+    degree: Systèmes électroniques et informatiques
+    period: 2019 – 2021
+
+  - school: Licence EEA – Sorbonne Université
+    degree: Électronique, Énergie Électrique, Automatique
+    period: 2016 – 2019
 
 certifications:
-  - "Microsoft Azure Fundamentals – AZ-900"
+  - Microsoft Azure Fundamentals – AZ-900 (2023)
+  - Microsoft Azure AI Fundamentals – AI-900 (2023)
 
 languages:
-  - "Français : Natif"
-  - "Anglais : B2"
+  - Français : Natif
+  - Arabe : Natif
+  - Anglais : B2
+  - Espagnol : B1
 
 interests:
-  - "Intelligence Artificielle"
-  - "Data et Open data"
-  - "Électronique"
-  - "Technologies émergentes"
-  - "Voyages"
-  - "Sport"
-  - "Cuisine"
-  - "Santé"
-  
+  - Data et Intelligence Artificielle
+  - Open Data
+  - Sport
+  - Photographie
+  - Voyages

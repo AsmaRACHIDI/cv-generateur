@@ -2,3 +2,5 @@ PyYAML
 Jinja2
 markdown
 pdfkit
+PyPDF2
+python-docx
